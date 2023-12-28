@@ -1,5 +1,5 @@
 variable "name" {
-  description = "The KMS key description and name"
+  description = "The KMS key name/alias"
   type        = string
 }
 variable "key_usage" {
